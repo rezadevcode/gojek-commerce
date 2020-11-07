@@ -9,6 +9,10 @@
     top: 30vh;
 }
 
+.container img {
+    height: 48px;
+}
+
 .link-page {
     width: max-content;
     margin: 2em auto;

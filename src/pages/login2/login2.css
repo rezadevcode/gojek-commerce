@@ -1,0 +1,83 @@
+
+.container {
+    padding: 40px 0;
+}
+.title-area {
+    text-align: center;
+}
+.title-area img {
+    height: 40px;
+    margin-bottom: 15px;
+}
+.title-area h3 {
+    color: #A6B1B1;
+    font-size: 16px;
+    letter-spacing: 7px;
+}
+.title-area h3::before,
+.title-area h3::after {
+    content: '\02014';
+    font-size: 24px;
+    font-weight: 200;
+    color: #D8E1E1;
+    line-height: 0;
+    position: relative;
+    top: 2px;
+}
+
+
+
+/* Login Box */
+/* ----------------------------------------------------- */
+.box-area {
+    margin: 100px auto;
+    width: 470px;
+    box-shadow: 0px 4px 15px rgba(51, 51, 51, 0.12);
+    border-radius: 8px;
+    border: none;
+}
+.box-area .card-body {
+    padding: 30px;
+    text-align: center;
+}
+.card-body h1 {
+    font-size: 36px;
+    margin-bottom: 14px;
+}
+.card-body p {
+    color: #A6B1B1;
+}
+.card-body .btn {
+    background: #fff;
+    margin-top: 12px;
+    border: 1px solid #D8E1E1;
+    border-radius: 6px;
+    color: #676F6F;
+}
+.card-body .btn:active,
+.card-body .btn:focus {
+    -webkit-box-shadow: none !important;
+    box-shadow: none  !important;
+    background-color: #fff !important;
+}
+.card-body .btn img {
+    width: 10%;
+    margin: auto 8px;
+}
+
+.bg-image {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
+/* Responsiveness */
+/* ----------------------------------------------------- */
+@media (max-width: 576px) {
+    .box-area {
+        width: 90%;
+    }
+}
