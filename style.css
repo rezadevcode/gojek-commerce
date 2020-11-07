@@ -1,0 +1,25 @@
+.container {
+    min-height: 100vh;
+}
+
+.container h1,
+.link-page {
+    text-align: center;
+    position: relative;
+    top: 30vh;
+}
+
+.link-page {
+    width: max-content;
+    margin: 2em auto;
+}
+
+.link-page ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.link-page ul li {
+    margin: auto 8px;
+}
