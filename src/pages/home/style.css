@@ -275,25 +275,6 @@ section.product-list {
     }
 }
 @media screen and (max-width: 576px) and (min-width: 426px) {
-    .container {
-        max-width: 90%;
-    }
-
-    .hero {
-        position: absolute;
-        width: 100%;
-        left: 0;
-        top: 100px;
-    }
-
-    .category {
-        margin-top: 380px;
-    }
-
-    .swiper-recommendation .swiper-slide {
-        width: 40%;
-    }
-
     .track-order .track img {
         padding: 16%;
         width: 100%;
@@ -315,6 +296,25 @@ section.product-list {
 }
 
 @media (max-width: 768px) {
+    .container {
+        max-width: 90%;
+    }
+
+    .hero {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        top: 100px;
+    }
+
+    .category {
+        margin-top: 380px;
+    }
+
+    .swiper-recommendation .swiper-slide {
+        width: 40%;
+    }
+
     .track-order .track p {
         display: none;
     }
