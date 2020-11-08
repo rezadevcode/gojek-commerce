@@ -1,0 +1,169 @@
+
+.container {
+    padding: 100px 0;
+    max-width: 80%;
+    min-height: 100vh;
+}
+.container a {
+    text-decoration: none;
+    color: inherit;
+}
+.container ul {
+    list-style-type: none;
+    padding: 0;
+}
+.container .card {
+    border-radius: 8px;
+}
+
+/* Section Title */
+
+.title {
+    margin-bottom: 16px;
+}
+.title .breadcrumb {
+    padding: 0;
+    background: no-repeat;
+    margin-bottom: 8px;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+    color: #A6B1B1;
+}
+
+.breadcrumb-item.active,
+.breadcrumb-item a {
+    color: #A6B1B1;
+}
+.title .card {
+    background: #EEF3F1;
+    border: none;
+    border-radius: 8px;
+}
+.title .card .card-body {
+    padding: 12px 24px;
+}
+.title .card .card-body h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+/* Section Categories */
+
+.sub-categories .card {
+    border-radius: 8px;
+}
+.sub-categories .card-header {
+    background-color: #00AA13;
+    color: #fff;
+    font-weight: 700;
+    border-radius: 8px 8px 0 0;
+}
+.list-group li:hover {
+    background-color: #ecffec;
+}
+.list-group .list-group-item:last-child {
+    border-radius: 0 0 8px 8px;
+}
+.list-group-item {
+    border: none;
+}
+.list-group-item .fas {
+    float: right;
+    color: #00AA13;
+}
+
+.list-category {
+    border: none;
+    font-size: 14px;
+    color: #676F6F;
+}
+.list-category p {
+    margin: 0;
+}
+
+.sort-title {
+    margin: 12px auto 36px;
+}
+.sort-title .card-body {
+    display: flex;
+    padding: 12px 16px;
+}
+.sort-title .card-body span {
+    position: absolute;
+    right: 135px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.sort-title .col-6 p {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#srt {
+    position: absolute;
+    right: 140px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#sorter .form-group {
+    margin-bottom: 0;
+    position: relative;
+    width: max-content;
+    float: right;
+}
+#sorter .form-group .select2 {
+    width: 110px;
+}
+.fa-chevron-down {
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    color: #00AA13;
+}
+
+
+.content-category .col {
+    margin-bottom: 12px;
+}
+.content-category .card-text {
+    font-size: 12px;
+}
+.content-category .price {
+    color: #00AA13;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+
+
+
+/* RESPONSIVENESS */
+/* ----------------------------------------------------- */
+@media (max-width: 576px) {
+    .container {
+        padding: 90px 0;
+        max-width: 95%;
+    }
+    .title .breadcrumb {
+        font-size: 12px;
+    }
+    .title .card .card-body h1 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 767px) {
+    #sidebar {
+        display: none;
+    }
+    .sort-title .col-6:first-child p {
+        display: none;
+    }
+    .content-category .card-text {
+        font-size: 12px;
+    }
+}

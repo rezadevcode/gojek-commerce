@@ -315,6 +315,10 @@ section.product-list {
         width: 40%;
     }
 
+    .swiper-popular .swiper-slide:not(:first-child) {
+        font-size: 12px;
+        top: 4px;
+    }
     .track-order .track p {
         display: none;
     }

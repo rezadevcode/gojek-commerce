@@ -104,3 +104,16 @@
 .show>.btn-secondary.dropdown-toggle:active {
     box-shadow: none;
 }
+
+
+/* RESPONSIVENESS */
+/* ----------------------------------------------------- */
+@media (max-width: 576px) {
+    .navbar {
+        padding: 0.5rem 2.5%;
+        height: 64px;
+    }
+    .navbar img {
+        height: 24px;
+    }
+}
