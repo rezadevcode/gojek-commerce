@@ -1,0 +1,35 @@
+
+
+.container {
+    padding: 100px 0;
+    max-width: 80%;
+    min-height: 100vh;
+}
+
+.card {
+    background: #EEF3F1;
+    border: none;
+    border-radius: 8px;
+}
+.card .card-body {
+    padding: 12px 24px;
+}
+.card .card-body h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+
+.main-area {
+    text-align: center;
+    margin: 10% auto;
+}
+
+.main-area img {
+    width: 50%;
+    margin: 40px auto;
+}
+.main-area h2 {
+    font-size: 24px;
+    color: #1C1D1D;
+}
