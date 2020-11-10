@@ -56,7 +56,7 @@
     border: 1px solid #eee;
     border-radius: 14px;
     padding: 8px 0;
-    height: 350px !important;
+    /* height: 350px !important; */
 }
 .product-preview .sp-thumbs {
     width: 100%;
