@@ -1,0 +1,288 @@
+
+.container {
+    padding: 100px 0;
+    max-width: 80%;
+    min-height: 100vh;
+}
+.container a {
+    text-decoration: none;
+    color: initial;
+}
+.container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Section Title */
+/* ----------------------------------------------------- */
+.title {
+    margin-bottom: 16px;
+}
+.title .breadcrumb {
+    padding: 0;
+    background: no-repeat;
+    margin: 0;
+}
+.breadcrumb-item+.breadcrumb-item::before {
+    content: ">";
+    color: #A6B1B1;
+}
+
+.breadcrumb-item.active,
+.breadcrumb-item a {
+    color: #A6B1B1;
+}
+
+
+/* Section Product Detail */
+/* ----------------------------------------------------- */
+.divider {
+    width: 100%;
+    height: 1px;
+    background-color: #D8E1E1;
+    margin: 16px auto;
+}
+.product-title h1 {
+    font-size: 24px;
+}
+.product-rating {
+    display: flex;
+}
+.product-rating .star {
+    margin-right: 16px;
+}
+.product-rating .star i {
+    color: goldenrod;
+}
+.product-rating .info {
+    font-size: 14px;
+    color: #676F6F;
+}
+.product-price,
+.product-color,
+.product-total {
+    align-items: center;
+}
+.product-price .col:first-child h1,
+.product-color .col:first-child h1,
+.product-total .col:first-child h1 {
+    font-size: 16px;
+    color: #A6B1B1;
+    margin: 0;
+}
+.product-price .col:last-child h1 {
+    font-size: 24px;
+    color: #DB3D40;
+    margin: 0;
+}
+
+.product-color .col:last-child .form-group {
+    margin-bottom: 0;
+    position: relative;
+    width: max-content;
+}
+.select2-container--default .select2-selection--single {
+    border: 1px solid #D8E1E1;
+}
+.fa-chevron-down {
+    position: absolute;
+    right: 1em;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    color: #00AA13;
+}
+
+.product-total .btn {
+    width: 26px;
+    height: 26px;
+    padding: 0;
+    background: #FFFFFF;
+    border: 1px solid #D8E1E1;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.product-total .btn:hover {
+    color: #00AA13;
+}
+#totalnum {
+    margin: auto 16px;
+    position: relative;
+    top: 2px;
+}
+
+.product-spesification {
+    margin-top: 36px;
+}
+.product-spesification .card {
+    border-radius: 8px;
+}
+.product-spesification .card .card-header {
+    padding: 8px 16px;
+    border-radius: 8px 8px 0 0;
+    background-color: #fff;
+    font-weight: 700;
+    color: #A6B1B1;
+}
+.product-spesification .card .card-body {
+    padding: 8px 16px;
+}
+.product-spesification .card .card-body .row {
+    margin: 8px auto;
+    font-size: 14px;
+}
+.product-spesification .card .card-body .col-4 {
+    color: #A6B1B1;
+    padding: 0;
+}
+
+.big-divider {
+    width: 100%;
+    height: 8px;
+    background-color: #EEF3F1;
+    margin: 36px auto 16px;
+}
+
+.recommendation .title {
+    font-size: 24px;
+}
+
+.sticky-order .navbar {
+    background: #fff;
+    box-shadow: 0px -4px 15px rgba(51, 51, 51, 0.12);
+    border-radius: 48px 48px 0px 0px;
+}
+.sticky-order .navbar p {
+    margin: 0;
+}
+.sticky-order .navbar .left-side p:first-child {
+    color: #676F6F;
+    font-size: 14px;
+}
+.sticky-order .navbar .left-side p:last-child {
+    color: #DB3D40;
+    font-weight: 700;
+}
+.sticky-order .navbar .right-side .btn {
+    border-radius: 22px;
+    margin: auto 8px;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+.sticky-order .navbar .right-side .btn:last-child:hover {
+    background-color: inherit;
+    color: #00AA13;
+}
+
+/* Swiper Customization - Recommendation */
+/* ----------------------------------------------------- */
+.swiper-recommendation .swiper-slide {
+    display: block;
+    width: 20%;
+    padding: 8px 16px;
+    border-radius: 24px;
+    background-color: #fff;
+    border: 1px solid #D8E1E1;
+    color: #676F6F;
+    text-align: center;
+}
+.swiper-recommendation .swiper-slide img {
+    width: 80%;
+    margin: 12px auto;
+}
+.swiper-recommendation .swiper-slide p {
+    margin: 24px 0 12px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/* Modal Config - Purpose Order */
+/* ----------------------------------------------------- */
+#modal-order .modal-content {
+    border-radius: 8px;
+}
+#modal-order .modal-body .close {
+    position: absolute;
+    right: 0;
+    top: -16px;
+    opacity: 1;
+    width: 24px;
+}
+#modal-order .modal-body .close {
+    outline: none;
+}
+#modal-order .modal-body h5 {
+    margin-bottom: 12px;
+}
+#modal-order .modal-body textarea {
+    margin: 12px auto;
+    resize: none;
+    height: 120px;
+    border-radius: 8px;
+    box-shadow: none;
+}
+#modal-order .modal-body textarea:focus {
+    border-color: #A6B1B1;
+}
+#modal-order .modal-body textarea::-webkit-input-placeholder {
+    color: #A6B1B1;
+    font-style: italic;
+}
+#modal-order .modal-body .btn {
+    margin-top: 8px;
+    border-radius: 36px;
+    padding: 8px 24px;
+}
+
+
+
+/* RESPONSIVENESS */
+/* ----------------------------------------------------- */
+@media (max-width: 576px) {
+    .container {
+        padding: 90px 0;
+        max-width: 95%;
+    }
+    .title .breadcrumb {
+        font-size: 12px;
+    }
+    .title .card .card-body h1 {
+        font-size: 16px;
+    }
+    .category img {
+        height: 48px;
+    }
+
+    .sticky-order .navbar {
+        border-radius: 0;
+    }
+    .sticky-order .navbar .left-side {
+        display: none;
+    }
+    .sticky-order .navbar .right-side {
+        width: 100%;
+    }
+    .sticky-order .navbar .right-side .btn {
+        font-size: 13px;
+        width: 47%;
+        margin: 0 auto;
+    }
+    .sticky-order .navbar .right-side .btn:last-child {
+        float: right;
+    }
+
+
+    #modal-order .modal-content {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 768px) {
+    .swiper-recommendation .swiper-slide {
+        width: 40%;
+    }
+}
