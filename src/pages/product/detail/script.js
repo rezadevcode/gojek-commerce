@@ -24,4 +24,9 @@ $(document).ready(function () {
         spaceBetween: 10,
         freeMode: true,
     });
+
+    /** Smooth Product Viewer Plugin - Initiate & Customize */
+    $('.sp-wrap').smoothproducts();
+    $( "<div class='sub-thumbs'></div>" ).appendTo( ".sp-thumbs" ); // create sub wrapper element
+    $(".sp-thumbs a").detach().appendTo(".sub-thumbs"); // move child element into new wrapper
 });
