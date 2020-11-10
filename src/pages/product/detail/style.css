@@ -18,6 +18,14 @@
 .title {
     margin-bottom: 16px;
 }
+.title .card {
+    border: none;
+}
+.title .card .card-body {
+    padding: 12px 24px;
+    background: #EEF3F1;
+    border-radius: 8px;
+}
 .title .breadcrumb {
     padding: 0;
     background: no-repeat;
@@ -130,6 +138,7 @@
 .product-spesification .card .card-body .row {
     margin: 8px auto;
     font-size: 14px;
+    align-items: center;
 }
 .product-spesification .card .card-body .col-4 {
     color: #A6B1B1;
@@ -247,6 +256,9 @@
     }
     .title .breadcrumb {
         font-size: 12px;
+    }
+    .title .card .card-body {
+        padding: 8px 12px;
     }
     .title .card .card-body h1 {
         font-size: 16px;
