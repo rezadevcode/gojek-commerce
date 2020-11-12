@@ -268,10 +268,13 @@ section.product-list {
 @media (max-width: 425px) {
     .track-order .track img {
         padding: 16%;
-        width: 230%;
+        width: 130%;
     }
     .track-order .track p {
         display: none;
+    }
+    #track-list {
+        margin: 0 0 0 -15px;
     }
 }
 @media screen and (max-width: 576px) and (min-width: 426px) {
@@ -336,6 +339,9 @@ section.product-list {
         color: silver;
         font-size: 13px;
         margin: 0;
+    }
+    .popular .card-body {
+        padding: 8px;
     }
     #track-list li::before {
         top: 48%;
