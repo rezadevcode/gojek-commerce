@@ -1,0 +1,49 @@
+
+
+.container {
+    padding: 100px 0;
+    max-width: 80%;
+    min-height: 100vh;
+}
+
+
+.main-area {
+    text-align: center;
+    margin: 10% auto;
+}
+
+.main-area img {
+    width: 30%;
+    margin: 40px auto;
+}
+.main-area h2 {
+    font-weight: bold;
+    font-size: 18px;
+    color: #1C1D1D;
+}
+.main-area p {
+    color: #676F6F;
+}
+.main-area .btn {
+    border-radius: 22px;
+    padding: 8px 24px;
+    margin: 24px auto;
+}
+
+
+
+/* RESPONSIVENESS */
+/* ----------------------------------------------------- */
+@media (max-width: 576px) {
+    .container {
+        padding: 90px 0;
+        max-width: 95%;
+    }
+    .main-area img {
+        width: 75%;
+    }
+    .main-area p {
+        font-size: 14px;
+    }
+    
+}
