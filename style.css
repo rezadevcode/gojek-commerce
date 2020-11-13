@@ -1,10 +1,10 @@
 .container {
     min-height: 100vh;
+    text-align: center;
 }
 
 .container h1,
 .link-page {
-    text-align: center;
     position: relative;
     top: 30vh;
 }
@@ -13,9 +13,26 @@
     height: 48px;
 }
 
+.divider {
+    width: 50%;
+    height: 2px;
+    background-color: #ddd;
+    margin: 0 auto;
+    position: relative;
+    top: 14em;
+}
+
+.index h2 {
+    position: relative;
+    top: 10em;
+    font-size: 24px;
+    color: grey;
+}
+
 .link-page {
-    width: max-content;
-    margin: 2em auto;
+    width: 50%;
+    margin: 4em auto;
+    overflow-x: auto;
 }
 
 .link-page ul {
@@ -26,4 +43,7 @@
 
 .link-page ul li {
     margin: auto 8px;
+}
+.link-page ul li a {
+    width: max-content;
 }

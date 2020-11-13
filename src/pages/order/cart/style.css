@@ -178,7 +178,8 @@
 }
 #proceed .card-body .btn {
     width: 100%;
-    border-radius: 6px;
+    border-radius: 8px;
+    color: #fff;
 }
 
 
