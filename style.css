@@ -47,3 +47,13 @@
 .link-page ul li a {
     width: max-content;
 }
+
+
+
+/* RESPONSIVENESS */
+/* ----------------------------------------------------- */
+@media (max-width: 768px) {
+    .link-page {
+        width: 90%;
+    }
+}

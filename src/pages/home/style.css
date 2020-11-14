@@ -323,10 +323,15 @@ section.product-list a {
         width: 100%;
         left: 0;
         top: 100px;
+        margin: 0;
     }
 
     .category {
-        margin-top: 380px;
+        margin-top: 36%;
+    }
+
+    .swiper-hero .swiper-wrapper .swiper-slide {
+        min-height: auto;
     }
 
     .swiper-recommendation .swiper-slide {
