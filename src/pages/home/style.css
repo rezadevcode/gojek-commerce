@@ -32,6 +32,9 @@ section.popular,
 section.product-list {
     margin: 16px auto;
 }
+section.product-list a {
+    color: inherit;
+}
 
 .product-list .row .col {
     margin-bottom: 16px;
@@ -136,6 +139,9 @@ section.product-list {
     background-color: #fff;
     border: 1px solid #D8E1E1;
     color: #676F6F;
+}
+.swiper-category .swiper-slide a {
+    color: inherit;
 }
 .swiper-category .swiper-slide img {
     height: 16px;
