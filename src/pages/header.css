@@ -410,9 +410,6 @@
     #rightnav .nav-item .fas {
         font-size: 14px;
     }
-    #rightnav .nav-item img {
-        height: 16px;
-    }
     #rightnav .nav-item .dropdown button {
         font-size: 14px;
     }
@@ -421,6 +418,7 @@
     }
     #rightnav .profile img {
         margin: auto 8px;
+        height: 16px;
     }
     #rightnav .profile .btn {
         display: none;
@@ -472,5 +470,15 @@
     .notification .dropdown-menu {
         right: -10%;
         transform: translateX(10%);
+    }
+
+    #rightnav .nav-item .fas {
+        font-size: 18px;
+    }
+    #rightnav .profile img {
+        height: 20px;
+    }
+    #rightnav .profile .dropdown-menu a {
+        padding: 10px 16px;
     }
 }
