@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category List</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="../header.css">
+    <link rel="stylesheet" href="../footer.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Navbar Section -->
+        <header>
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a class="navbar-brand" href="../home/index.html">
+                    <img src="../../assets/logo/gojek.png" alt="logo">
+                </a>
+            </nav>
+        </header>
+        <!-- End Navbar Section -->
+
+
+        <!-- Main Content -->
+        <main class="content">
+            <section class="title">
+                <div class="card">
+                    <div class="card-body">
+                        <h1>Profile</h1>
+                    </div>
+                </div>
+            </section>
+
+            <section class="profile">
+                <div class="row">
+                    <div class="col col-lg-4 col-md-4">
+                        <div class="card side-profile">
+                            <div class="card-header">
+                                <a href="#" class="edit-profile">
+                                    <i class="far fa-edit"></i>
+                                    <span>Edit</span>
+                                </a>
+                                <div class="media">
+                                    <img src="../../assets/icon/user.png" alt="img-profile">
+                                    <div class="media-body">
+                                        <h5>Jessy Milenia</h5>
+                                        <div class="job">UX Researcher</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-body biodata">
+                                <div class="bio">
+                                    <p>Email</p>
+                                    <p>jessy.milenia@mail.com</p>
+                                </div>
+                                <div class="bio">
+                                    <p>Division / Business Section</p>
+                                    <p>Digital Product</p>
+                                </div>
+                                <div class="bio">
+                                    <p>Company / Entity</p>
+                                    <p>Aplikasi Karya Anak Bangsa</p>
+                                </div>
+                                <div class="bio">
+                                    <p>Status Employee</p>
+                                    <p>Permanent</p>
+                                </div>
+                                <div class="more-info collapse" id="more-info">
+                                    <div class="bio">
+                                        <p>Office Location</p>
+                                        <p>Jakarta - Pasaraya</p>
+                                    </div>
+                                    <div class="bio">
+                                        <p>Position</p>
+                                        <p>Staff</p>
+                                    </div>
+                                    <div class="divider"></div>
+                                    <div class="bio">
+                                        <p>SVP E-mail</p>
+                                        <p> - </p>
+                                    </div>
+                                    <div class="bio">
+                                        <p>Manager E-mail</p>
+                                        <p> - </p>
+                                    </div>
+                                    <div class="bio">
+                                        <p>VP E-mail</p>
+                                        <p> - </p>
+                                    </div>
+                                    <div class="bio">
+                                        <p>Supervisor E-mail</p>
+                                        <p> - </p>
+                                    </div>
+
+                                </div>
+                                <div class="btn btn-outline-secondary" data-toggle="collapse" data-target="#more-info">Show Detail</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col col-lg-8 col-md-8 col-sm-12 order-status">
+                        <div class="card tab-order">
+                            <div class="card-body">
+                                <ul class="nav nav-pills" id="pills-tab" role="tablist">
+                                    <li class="nav-item">
+                                        <p>Your Order</p>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" id="pills-all-tab" data-toggle="pill" href="#pills-all" role="tab">All</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="pills-request-tab" data-toggle="pill" href="#pills-request" role="tab">Request</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="pills-complete-tab" data-toggle="pill" href="#pills-complete" role="tab">Complete</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" id="pills-decline-tab" data-toggle="pill" href="#pills-decline" role="tab">Decline</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Order Content Info -->
+                        <div class="tab-content" id="order-status-content">
+                            <div class="tab-pane fade show active" id="pills-all" role="tabpanel">
+                                <div class="order-info">
+                                    <div class="card track-info">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <img src="../../assets/image/product/recommendation/samsung.png" alt="item-order">
+                                                <div class="media-body">
+                                                    <h5>Samsung Galaxy J8 SM-J810FZKATUR 32GB Black</h5>
+                                                    <p class="price">Rp 5.000.000</p>
+                                                    <p class="total">Item 1x</p>
+                                                </div>
+                                            </div>
+                                            <div class="description">
+                                                <p>
+                                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, dicta!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="card track-info">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <img src="../../assets/image/product/recommendation/macbook.png" alt="item-order">
+                                                <div class="media-body">
+                                                    <h5>Macbook Pro 2020 - Space Grey </h5>
+                                                    <p class="price">Rp 20.000.000</p>
+                                                    <p class="total">Item 1x</p>
+                                                </div>
+                                            </div>
+                                            <div class="description">
+                                                <p>
+                                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, dicta!
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-request" role="tabpanel">
+                                <div class="order-info">
+                                    <div class="card track-info">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <img src="../../assets/image/product/recommendation/macbook.png" alt="item-order">
+                                                <div class="media-body">
+                                                    <h5>Macbook Pro 2020 - Space Grey </h5>
+                                                    <p class="price">Rp 20.000.000</p>
+                                                    <p class="total">Item 1x</p>
+                                                </div>
+                                            </div>
+                                            <div class="description">
+                                                <p>
+                                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, dicta!
+                                                    Lorem ipsum dolor sit amet, consectetur adipisicing.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-complete" role="tabpanel">
+                                <div class="order-info">
+                                    <div class="card track-info">
+                                        <div class="card-body">
+                                            <div class="media">
+                                                <img src="../../assets/image/product/recommendation/samsung.png" alt="item-order">
+                                                <div class="media-body">
+                                                    <h5>Samsung Galaxy J8 SM-J810FZKATUR 32GB Black</h5>
+                                                    <p class="price">Rp 5.000.000</p>
+                                                    <p class="total">Item 1x</p>
+                                                </div>
+                                            </div>
+                                            <div class="description">
+                                                <p>
+                                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus, dicta!
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-decline" role="tabpanel">
+                                <div class="order-info empty">
+                                    <img src="../../assets/image/condition/empty-shopping-cart.png" alt="empty-cart">
+                                </div>
+                            </div>
+                        </div>
+
+
+                        
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p><strong>© 2020 Gojek</strong></p>
+        <p>
+            Gojek is a trademark of PT Aplikasi Karya Anak Bangsa. 
+            Registered in the Directorate General of Intellectual Property of the Republic of Indonesia.
+        </p>
+    </footer>
+    <!-- End Footer Section -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.2/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/js/select2.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
