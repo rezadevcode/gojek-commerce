@@ -1,4 +1,4 @@
-/** LOGIN SCRIPT */
+/** REGISTER SCRIPT */
 
 $(document).ready(function () {
 
@@ -20,7 +20,7 @@ $(document).ready(function () {
     });
 
     // config jquery form validate
-    $("#loginForm").validate({
+    $("#register-form").validate({
         rules: {
             email: {
                 required: true,

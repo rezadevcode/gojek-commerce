@@ -2,6 +2,10 @@
 
 $(document).ready(function () {
 
+    /** Show Opening Modal Automatically */
+    $('#opening-modal').modal('show')
+
+
     /** Swiper JS Config - Hero Section */
     new Swiper('.swiper-hero', {
         slidesPerView: 'auto',
@@ -16,10 +20,10 @@ $(document).ready(function () {
             el: '.swiper-pagination',
             clickable: true,
         },
-        // autoplay: {
-        //     delay: 5000,
-        //     disableOnInteraction: false,
-        // },
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
     });
 
     /** Swiper JS Config - Category Section */
