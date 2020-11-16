@@ -291,7 +291,7 @@
 /* Dropdown - Profile */
 /* ----------------------------------------------------- */
 .profile .dropdown-menu a {
-    padding: 8px;
+    padding: 8px 16px;
 }
 .profile .profile-trigger img {
     cursor: pointer;
