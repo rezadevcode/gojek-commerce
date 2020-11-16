@@ -383,3 +383,9 @@ section.product-list a {
     }
 
 }
+
+@media (max-width: 768px) {
+    .swiper-category .swiper-slide {
+        font-size: 14px;
+    }
+}
